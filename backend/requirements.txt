@@ -1,0 +1,13 @@
+fastapi==0.111.0
+uvicorn[standard]==0.30.1
+python-multipart==0.0.9
+faster-whisper==1.0.3
+pydantic==2.7.1
+pydantic-settings==2.3.0
+python-dotenv==1.0.1
+requests==2.32.3
+
+# Pemisahan vokal (opsional tapi sangat membantu akurasi pada lagu).
+# Kalau tidak sanggup dipasang, set SEPARATE_VOCALS=false di backend/.env
+demucs==4.1.0
+soundfile==0.14.0
